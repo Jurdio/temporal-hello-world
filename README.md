@@ -6,17 +6,13 @@
 
 ### 1. Запустіть Temporal Server (через docker-compose)
 
-1. Завантажте офіційний docker-compose.yaml:
-   ```sh
-   curl -O https://raw.githubusercontent.com/temporalio/docker-compose/main/docker-compose.yml
-   ```
-2. Запустіть сервіси Temporal:
+1. Запустіть сервіси Temporal:
    ```sh
    docker compose up
    # або якщо у вас стара версія Docker:
    # docker-compose up
    ```
-   Це підніме Temporal Server, базу даних та Web UI (http://localhost:8233).
+   Це підніме Temporal Server, базу даних та Web UI (http://localhost:8080).
 
 ### 2. Встановіть залежності
 
@@ -48,7 +44,3 @@ npm run client
 1. Temporal Server через docker-compose
 2. npm run worker
 3. npm run client
-
----
-
-Якщо виникли питання — пишіть!
