@@ -1,0 +1,5 @@
+# dynamicconfig/development-sql.yaml
+system:
+  - key: "system.advancedVisibilityWritingMode"
+    value: "on"
+    constraints: {}
