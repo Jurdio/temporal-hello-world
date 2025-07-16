@@ -1,0 +1,16 @@
+{
+  "name": "temporal-hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "worker": "node worker.js",
+    "client": "node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "temporalio": "^1.9.3"
+  }
+}
